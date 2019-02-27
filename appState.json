@@ -1,0 +1,72 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "b1e06619-b692-4fef-89db-3ec6a8572d5f": {
+        "id": "b1e06619-b692-4fef-89db-3ec6a8572d5f",
+        "parent": null,
+        "name": "Test",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "d8e7bba7-0168-425a-92f9-b130a104ec43"
+        ],
+        "isRemovable": false,
+        "filePath": "Test"
+      },
+      "d8e7bba7-0168-425a-92f9-b130a104ec43": {
+        "id": "d8e7bba7-0168-425a-92f9-b130a104ec43",
+        "parent": "b1e06619-b692-4fef-89db-3ec6a8572d5f",
+        "name": "lambda.js",
+        "type": "LAMBDA_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "Test/lambda.js",
+        "code": "exports.handler = function(event, context, callback) {\n    \n    callback(null, {\"message\": \"Successfully executed\"});\n}",
+        "triggers": [],
+        "config": {
+          "runtime": "nodejs8.10",
+          "timeout": 60,
+          "memory": 128
+        }
+      }
+    },
+    "deletedFiles": [],
+    "rootNode": "b1e06619-b692-4fef-89db-3ec6a8572d5f",
+    "openFiles": [
+      "d8e7bba7-0168-425a-92f9-b130a104ec43"
+    ],
+    "currentFileId": "d8e7bba7-0168-425a-92f9-b130a104ec43",
+    "resources": {},
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    },
+    "lambdaId": "d8e7bba7-0168-425a-92f9-b130a104ec43"
+  },
+  "PROJECT_META": {
+    "projectName": "Test",
+    "projectDescription": "Test",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-2",
+    "platform": "AWS",
+    "platformRegions": {},
+    "lastSave": 1551232734276
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "Test",
+      "url": "https://github.com/nickrobinson352/Test"
+    }
+  }
+}
